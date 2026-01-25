@@ -8,17 +8,18 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .main{
+    display:flex;
+    flex-direction: column;
     height: 55vh;
-    border: solid black;
+    color: black;
+    align-items: center;
 }
 .home{
     height:35vh ;
-    border: solid black;
     background-color: #1F2937;
 }
 .footer{
     height: 9vh;
-    border: solid black;
     background-color: gray; 
 }
 .header,.links{
@@ -68,5 +69,16 @@ button{
     background-color: gray;
     height: 130px;
     width: 400px;
+}
+.randomInfo{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.randomInfo>div{
+    border: solid blue;
+    height: 80px;
+    width: 80px;
+    margin: 30px;
 }
 
